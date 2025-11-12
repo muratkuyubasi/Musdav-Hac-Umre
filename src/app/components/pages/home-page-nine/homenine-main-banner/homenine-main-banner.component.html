@@ -5,9 +5,19 @@
         <div class="container-fluid">
             <div class="health-coaching-banner-slides">
                 <owl-carousel-o [options]="healthCoachingBannerSlides">
-                    <ng-template carouselSlide *ngFor="let data of slidersModel ; let i = index">
+                    <ng-template carouselSlide>
                         <div class="single-banner">
-                            <img img [src]="path+'/WebImages/Announcements/'+data.image" alt="Image">
+                             <img src="assets/img/test/s1.jpg" alt="">
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                        <div class="single-banner">
+                             <img src="assets/img/test/s2.jpg" alt="">
+                        </div>
+                    </ng-template>
+                    <ng-template carouselSlide>
+                        <div class="single-banner">
+                             <img src="assets/img/test/s3.jpg" alt="">
                         </div>
                     </ng-template>
                     <!-- style="animation: pulse 18s linear 0s infinite alternate none running;" -->

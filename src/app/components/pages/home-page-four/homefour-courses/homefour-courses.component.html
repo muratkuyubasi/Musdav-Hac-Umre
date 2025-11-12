@@ -1,26 +1,101 @@
-<section class="courses-area ptb-100" style="background-color: rgb(180, 145, 100);">
+<section class="courses-area ptb-100" style="background-color:rgb(255 255 255)">
     <div class="container">
         <div class="section-title text-start">
             <!-- <span class="sub-title">Discover Courses</span> -->
-            <h3 style="color: #fff;">Yolculuğunuzu Planlamaya Başlayın</h3>
-            <p style="color: #fff;">Mekke ve Medine'ye seyahatinizi planlamaya başlamak için bilmeniz gereken her şey.</p>
+            <h3 style="color: #347E5A;">Yolculuğunuzu Planlamaya Başlayın</h3>
+            <p style="color: #101820;">Mekke ve Medine'ye seyahatinizi planlamaya başlamak için bilmeniz gereken her şey.</p>
 
             <!-- <a routerLink="/courses-2-columns-style-3" class="default-btn"><i class='bx bx-show-alt icon-arrow before'></i><span class="label">All Courses</span><i class="bx bx-show-alt icon-arrow after"></i></a> -->
         </div>
         <div class="courses-slides">
             <owl-carousel-o [options]="coursesSlides">
-                <ng-template carouselSlide *ngFor="let item of newsModel">
+                <ng-template carouselSlide>
                     <div class="single-courses-box without-box-shadow mb-30">
                         <div class="courses-image">
-                            <a routerLink="/single-courses" class="d-block"><img img [src]="path+'/WebImages/Announcements/'+item.image" alt="Image">
+                            <a routerLink="/single-courses" class="d-block"><img src="assets/img/courses/test1.jpg" alt="">
                             </a>
                             <div class="tag">
-                                <a routerLink="/" class="d-block" style="color: #fff;">{{item.title}}</a>
+                                <a routerLink="/" class="d-block" style="color: #fff;">Vize Sürecinizi Başlatın</a>
                             </div>
                         </div>
                         <div class="courses-content">
                          
-                            <h3 [innerHTML]="item.detail"><a routerLink="/single-courses" class="d-inline-block">{{item.detail}}</a></h3>
+                            <h3><a routerLink="/single-courses" class="d-inline-block" style="color: #fff;">Suudi Arabistan'a giriş koşullarını karşılamak için basit adımları izleyin.</a></h3>
+                           
+                        </div>
+                        <div class="courses-box-footer">
+                            <ul>
+                               <span style="font-size: 1rem;
+                               font-weight: 500;
+                               line-height: 140%;
+                               font-style: normal;color: #fff;margin-left: 5%;"> Learn more</span>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-courses-box without-box-shadow mb-30">
+                        <div class="courses-image">
+                            <a routerLink="/single-courses" class="d-block"><img src="assets/img/courses/test2.jpg" alt="">
+                            </a>
+                            <div class="tag">
+                                <a routerLink="/" class="d-block" style="color: #fff;">Paketlerinizi Rezerve Edin</a>
+                            </div>
+                        </div>
+                        <div class="courses-content">
+                         
+                            <h3><a routerLink="/single-courses" class="d-inline-block" style="color: #fff;">Suudi Arabistan'a giriş koşullarını karşılamak için basit adımları izleyin.</a></h3>
+                           
+                        </div>
+                        <div class="courses-box-footer">
+                            <ul>
+                               <span style="font-size: 1rem;
+                               font-weight: 500;
+                               line-height: 140%;
+                               font-style: normal;color: #fff;margin-left: 5%;"> Learn more</span>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-courses-box without-box-shadow mb-30">
+                        <div class="courses-image">
+                            <a routerLink="/single-courses" class="d-block"><img src="assets/img/courses/test3.jpg" alt="">
+                            </a>
+                            <div class="tag">
+                                <a routerLink="/" class="d-block" style="color: #fff;">Umre ve Ziyaret</a>
+                            </div>
+                        </div>
+                        <div class="courses-content">
+                         
+                            <h3><a routerLink="/single-courses" class="d-inline-block" style="color: #fff;">Suudi Arabistan'a giriş koşullarını karşılamak için basit adımları izleyin.</a></h3>
+                           
+                        </div>
+                        <div class="courses-box-footer">
+                            <ul>
+                               <span style="font-size: 1rem;
+                               font-weight: 500;
+                               line-height: 140%;
+                               font-style: normal;color: #fff;margin-left: 5%;"> Learn more</span>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-courses-box without-box-shadow mb-30">
+                        <div class="courses-image">
+                            <a routerLink="/single-courses" class="d-block"><img src="assets/img/courses/test4.jpg" alt="">
+                            </a>
+                            <div class="tag">
+                                <a routerLink="/" class="d-block" style="color: #fff;">Mekke'yi Keşfedin</a>
+                            </div>
+                        </div>
+                        <div class="courses-content">
+                         
+                            <h3><a routerLink="/single-courses" class="d-inline-block" style="color: #fff;">Suudi Arabistan'a giriş koşullarını karşılamak için basit adımları izleyin.</a></h3>
                            
                         </div>
                         <div class="courses-box-footer">

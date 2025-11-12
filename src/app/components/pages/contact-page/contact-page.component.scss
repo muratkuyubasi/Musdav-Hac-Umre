@@ -24,7 +24,7 @@
         background: #f5f5f5;
         border-radius: 50%;
         font-size: 35px;
-        color: var(--mainColor);
+        color: rgb(180, 145, 100);
         transition: var(--transition);
         margin-bottom: 15px;
         position: relative;
@@ -52,7 +52,7 @@
             color: var(--paragraphColor);
 
             &:hover {
-                color: var(--mainColor);
+                color: rgb(180, 145, 100);
             }
         }
         &:last-child {
@@ -63,7 +63,7 @@
         transform: translateY(-10px);
 
         .icon {
-            background-color: var(--mainColor);
+            background-color:rgb(180, 145, 100);
             color: var(--whiteColor);
             border-color: var(--mainColor);
         }

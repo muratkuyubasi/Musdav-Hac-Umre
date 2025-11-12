@@ -124,7 +124,7 @@ img {
     }
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: var(--blackColor);
+    color: #347E5A;
     font: {
         family: var(--fontFamily1);
     };
@@ -526,7 +526,7 @@ textarea.form-control {
                 }
                 &:hover, &.active {
                     span {
-                        background-color: var(--mainColor);
+                        background-color: #347E5A;
                     }
                 }
                 &.active {
@@ -916,7 +916,7 @@ textarea.form-control {
                     border-radius: 2px;
                     position: absolute;
                     transition: var(--transition);
-                    border: 1px solid var(--mainColor2);
+                    border: 1px solid #ffffff;
                 }
                 &.owl-next {
                     left: auto;
@@ -1558,7 +1558,7 @@ textarea.form-control {
         span {
             transition: var(--transition);
             background-color: transparent;
-            color: #727695;
+            color: #347E5A;
             font-weight: 500;
             cursor: pointer;
             display: block;
@@ -1684,7 +1684,7 @@ textarea.form-control {
             }
             &.active {
                 span {
-                    background-color: rgb(180, 145, 100);
+                    background-color:#D5B85F;
                     color: var(--whiteColor);
                 }
             }
@@ -1718,15 +1718,15 @@ textarea.form-control {
                     size: var(--fontSize);
                 };
                 &:hover {
-                    background-color:rgb(180, 145, 100);
-                    border-color: rgb(180, 145, 100);
+                    background-color:#D5B85F;
+                    border-color:#D5B85F;
                     color: var(--whiteColor);
                 }
             }
             &.active {
                 span {
-                    background-color: rgb(180, 145, 100);
-                    border-color: rgb(180, 145, 100);
+                    background-color:#D5B85F;
+                    border-color:#D5B85F;
                     color: var(--whiteColor);
                 }
             }
@@ -2165,14 +2165,14 @@ textarea.form-control {
     }
     &.item-bg1 {
         background: {
-            image: url(assets/img/page-title/about.jpeg);
+            image: url(assets/img/page-title/hakkimizda.jpg);
         };
         animation: pulse 18s linear 0s infinite alternate none running ;
 
     }
     &.item-bg2 {
         background: {
-            image: url(assets/img/page-title/banner1.png);
+            image: url(assets/img/page-title/umre.jpg);
         };
         
         animation: pulse 18s linear 0s infinite alternate none running ;
@@ -2184,7 +2184,7 @@ textarea.form-control {
     }
     &.item-bg4 {
         background: {
-            image: url(assets/img/page-title/mekke.jpeg);
+            image: url(assets/img/page-title/mekke.jpg);
         };
         animation: pulse 18s linear 0s infinite alternate none running ;
 
@@ -3354,7 +3354,7 @@ blockquote, .blockquote {
     .accordion-item {
         box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
 		border: 1px solid rgba(0, 0, 0, .125);
-        background-color: rgb(180 145 100);
+        background-color: #D5B85F;
 		margin-bottom: 15px;
         border-radius: 5px;
         display: block;

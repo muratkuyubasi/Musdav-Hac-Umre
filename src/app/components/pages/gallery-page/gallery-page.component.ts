@@ -13,7 +13,7 @@ export class GalleryPageComponent implements OnInit {
 
     public _album = [];
     constructor(public _lightbox: Lightbox) {
-        for (let i = 1; i <= 9; i++) {
+        for (let i = 1; i <= 6; i++) {
             const src = 'assets/img/gallery/gallery' + i + '.jpg';
             const caption = 'Image ' + i;
             const thumb = 'assets/img/gallery/gallery' + i + '.jpg';

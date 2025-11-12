@@ -6,7 +6,7 @@
     height: auto;
     z-index: 999;
     position: absolute;
-    background: rgba(0, 0, 0, 0.7) !important;
+    background:#101820 !important;
 
     &.p-relative {
         position: relative;
@@ -490,7 +490,7 @@
                         right: 13px;
                     };
                     &:hover, &:focus, &.active {
-                        color: var(--mainColor);
+                        color: rgb(180, 145, 100);
                     }
                     i {
                         font-size: 17px;
@@ -1391,7 +1391,7 @@
     }
 
     .navbar-area {
-        background-color: var(--whiteColor);
+        background-color:rgba(0, 0, 0, 0.7) !important;
         margin-top: 0;
         padding: {
             top: 15px;
@@ -1410,7 +1410,7 @@
                 height: 70vh;
                 margin-top: 15px;
                 flex-direction: unset;
-                background-color: #fafafa;
+                background-color: rgba(0, 0, 0, 0.7) !important;
                 padding: {
                     top: 18px;
                     left: 18px;
@@ -1545,7 +1545,7 @@
                     width: 30px;
                     margin: 6px 0;
                     display: block;
-                    background: var(--blackColor);
+                    background: #fff;
                 }
             }
         }

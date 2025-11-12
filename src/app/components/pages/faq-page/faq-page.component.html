@@ -19,7 +19,8 @@
             <ul class="nav-tabset">
                 
                 <li class="nav-tab" [ngClass]="{'active': currentTab === 'tab1'}">
-                    <span class="active" (click)="switchTab($event, 'tab1')"> Umreye Giriş</span>
+                    
+                    <span class="active" (click)="switchTab($event, 'tab1')">Umreye Giriş</span>
                 </li>
                 <li class="nav-tab" [ngClass]="{'active': currentTab === 'tab2'}">
                     <span (click)="switchTab($event, 'tab2')">Yolculuk ve Ulaşım</span>

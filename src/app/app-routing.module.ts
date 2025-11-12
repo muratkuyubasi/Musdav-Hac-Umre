@@ -71,8 +71,7 @@ const routes: Routes = [
     {path: 'mekke', component: CoursesGridStyleTwoColumnsFourPageComponent},
     {path: 'contact', component: ContactPageComponent},
     {path: 'programoffer', component: CoursesGridStyleOneColumnsFourPageComponent},
-
-
+    {path: 'gallery', component: GalleryPageComponent},
 
     {path: 'course-portal-online', component: HomePageTwoComponent},
     {path: 'distant-learning', component: HomePageThreeComponent},
@@ -92,7 +91,6 @@ const routes: Routes = [
     {path: 'instructor-2', component: InstructorsPageTwoComponent},
     {path: 'instructor-3', component: InstructorsPageThreeComponent},
     {path: 'single-instructor', component: InstructorsDetailsPageComponent},
-    {path: 'gallery', component: GalleryPageComponent},
     {path: 'events', component: EventsPageComponent},
     {path: 'single-events', component: EventsDetailsPageComponent},
     {path: 'pricing', component: PricingPageComponent},
